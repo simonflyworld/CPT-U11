@@ -11,7 +11,7 @@ while True:
     ret, frame = cam_input.read()
     cv2.imshow("Imsthage", frame) 
     if cv2.waitKey(1) & 0xFF == ord('1'):
-        cv2.imwrite("/opt/code/image/fangjian2.jpeg", frame)
+        cv2.imwrite("image.jpeg", frame)
         break
 cam_input.release()
 cv2.destroyAllWindows()  
