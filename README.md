@@ -32,10 +32,10 @@ library we use:
       [第四个界面为结果输出按键，您将会在这页看到运算结果，如果结果为NONE 这表明识别失败，输入图片中不包含，或含有非法字符，您可以通过按exit按钮来退出程序。感谢您使用SM团队制作的VC视觉计算器，希望您可以拥有一个完美的使用体验。我们下一次，程序里见。江湖路远，有缘再见。]
       
       
+
+def take_picture(camra_choose):
+def count_main(letter):
+def identification():
 Def test()
 Def main()
-Def get_inpiut() 
-Def vision distinguish():
-Def user writing hobbit learn():
-Def count functions(): 
-Def advance functions():
+
