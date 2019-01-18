@@ -25,7 +25,8 @@ library we use:
       
       (Before you run our code Please install these libraries correctly.Otherwise there is a risk of a program crash. For the safety of you and others, please install these libraries correctly.)
       [在您使用我们的程序之前，请您正确的安装这些库，否则有可能会出现程序崩溃的风险。为了您和他人的人身和财产安全，请您正确的安装这些库。]
-
+      [请您下载全部的文件夹，只有这样才能正确的开始程序]
+      [第一个界面为 登陆界面，在这个界面有两个二维码，您需要向我们支付许可证费用，去购买正版许可证。使用盗版许可证是不道德的，同时也不被法律允许。]
 
 
 Def test()
