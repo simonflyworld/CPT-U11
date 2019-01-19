@@ -58,4 +58,4 @@ Acknowledgement： Google (For Google OCR)
                   intel(Open CV)
                   Github
                   CSDN
-                  Artificial Intelligence Club, Jiangsu Tianyi High school
+                  China Jiangsu Tianyi High school Artificial Intelligence Club
