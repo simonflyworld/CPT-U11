@@ -36,8 +36,13 @@ library we use:
       (The fourth interface is the result output button, you will see the result of the operation on this page. If the result is NONE, it means the recognition failed, the input picture does not contain, or contains illegal characters, you can exit the program by pressing the exit button. Thank you for using the VC vision calculator made by the SM team, I hope you can have a perfect experience. The next time we see it in the program. "江湖路远，有缘再见")
       [第四个界面为结果输出按键，您将会在这页看到运算结果，如果结果为NONE 这表明识别失败，输入图片中不包含，或含有非法字符，您可以通过按exit按钮来退出程序。感谢您使用SM团队制作的VC视觉计算器，希望您可以拥有一个完美的使用体验。我们下一次，程序里见。江湖路远，有缘再见。]
       
-      When you use 1080P or 4K camra to take the user input,the Success rate is 98%, But when you useing 720P or 480p camra to take input. The Success rate is 20%. 当光线不足和环境光非常复杂的情况下，识别率将会降低。
+      When you use 1080P or 4K camra to take the user input,the Success rate is 98%, But when you useing 720P or 480p camra to take input. The Success rate is 20%. When the light is insufficient and the ambient light is very complicated, the recognition rate will decrease.
       
+Files in the folder:
+      Main program
+      test image folder(Have 5 test image inside)
+      A few of image that program need.
+      DO NOT DELETE THEM!!!!!! YOU ONLY NEED TO RUN THE vc_from Team SM.PY
      
 算法部分 functions：
 def take_picture(camra_choose)
