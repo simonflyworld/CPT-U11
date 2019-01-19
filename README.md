@@ -54,3 +54,8 @@ def campg(cram_choose)[这个为GUI和算法的端口]
 def fourthpg(answer)[这个为算法到GUI的输出端口]
 
 
+Acknowledgement： Google (For Google OCR) 
+                  intel(Open CV)
+                  Github
+                  CSDN
+                  天一AI
