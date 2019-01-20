@@ -42,6 +42,7 @@ Files in the folder:
       Main program
       test image folder(Have 5 test image inside)
       A few of image that program need.
+      After you run first time have two image will be make. Do not worry about it! it's nomal and also this is a way you can check where the error come from.
       DO NOT DELETE THEM!!!!!! YOU ONLY NEED TO RUN THE vc_from Team SM.PY
      
 算法部分 functions：
