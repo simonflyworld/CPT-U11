@@ -407,14 +407,15 @@ def main():
         # 登陆名字密码判断
 
         def reg():
+            password=['a','b']
             myAccount = a_entry.get()
             myPassword = p_entry.get()
             a_len = len(myAccount)
             p_len = len(myPassword)
-            if myAccount == 'a' and myPassword == 'a':
+            if myAccount == 'a' and myPassword in password:
                 msg_label['text'] = 'well down'
                 firstpg()
-            elif myAccount == 'a' and myPassword != 'a':
+            elif myAccount == 'a' and myPassword not in password:
 
                 msg_label['text'] = 'password errow'
                 p_entry.delete(0, p_len)
@@ -475,7 +476,7 @@ def main():
         # 提示
 
         msg_label = Label(root0, text='')
-        msg_label.grid(row=3)
+        msg_label.grid(column=1,row=5)
 
     def firstpg():
         root0.destroy()
@@ -617,6 +618,7 @@ def test():
     assert count_main('4/2') == 2, 'answer error 4/2 == 2'
     assert count_main('15+1') == 16, 'answer error 15+1 == 16'
     assert count_main('(2+2)*8') == 32, 'answer error (2+2)*8 == 4'
+    
     print ('pass all test!')
 
 
