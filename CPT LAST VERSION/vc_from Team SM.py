@@ -618,6 +618,7 @@ def test():
     assert count_main('4/2') == 2, 'answer error 4/2 == 2'
     assert count_main('15+1') == 16, 'answer error 15+1 == 16'
     assert count_main('(2+2)*8') == 32, 'answer error (2+2)*8 == 4'
+    assert count_main("2  +  2") == 4,'space error'
     
     print ('pass all test!')
 
